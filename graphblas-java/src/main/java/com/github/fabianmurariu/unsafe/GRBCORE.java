@@ -81,6 +81,12 @@ public final class GRBCORE {
     public static native long clearMatrix(Buffer mat);
     public static native long freeMatrix(Buffer mat);
     public static native long removeElementMatrix(Buffer mat, long row, long col);
+    // TODO: have a dup with out parameter
+//    GrB_Matrix A, C ;
+//    GrB_Matrix_new (&A, GrB_FP64, n) ;
+//    GrB_Matrix_dup (&C, A) ;
+//    // like C = A, but making a deep copy
+
     public static native Buffer dupMatrix(Buffer mat);
     public static native int getFormat(Buffer mat);
     public static native long makeCSC(Buffer mat);
