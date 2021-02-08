@@ -5,8 +5,9 @@
     {"name": "addInv", "grb_name":"GrB_AINV"},
     {"name": "abs", "grb_name":"GxB_ABS"},
     {"name": "mulInv", "grb_name":"GrB_MINV"},
-    {"name": "logicalNot", "grb_name":"GxB_LNOT"},
-    {"name": "bitwiseNot", "grb_name":"GxB_BNOT"},
+    {"name": "logicalNot", "grb_name":"GxB_LNOT"}
+  ],
+  "positional_unary_ops": [
     {"name": "positionI", "grb_name":"GxB_POSITIONI"},
     {"name": "positionI1", "grb_name":"GxB_POSITIONI1"},
     {"name": "positionJ", "grb_name":"GxB_POSITIONJ"},
@@ -14,15 +15,7 @@
   ],
   "binary_ops": [
     {"name":  "first", "grb_name":  "GrB_FIRST"},
-    {"name":  "firstI", "grb_name":  "GrB_FIRSTI"},
-    {"name":  "firstI1", "grb_name":  "GrB_FIRSTI1"},
-    {"name":  "firstJ", "grb_name":  "GrB_FIRSTJ"},
-    {"name":  "firstJ1", "grb_name":  "GrB_FIRSTJ1"},
     {"name":  "second", "grb_name":  "GrB_SECOND"},
-    {"name":  "secondI", "grb_name":  "GrB_SECONDI"},
-    {"name":  "secondI1", "grb_name":  "GrB_SECONDI1"},
-    {"name":  "secondJ", "grb_name":  "GrB_SECONDJ"},
-    {"name":  "secondJ1", "grb_name":  "GrB_SECONDJ1"},
     {"name":  "any", "grb_name":  "GxB_ANY"},
     {"name":  "pair", "grb_name":  "GxB_PAIR"},
     {"name":  "min", "grb_name":  "GrB_MIN"},
@@ -42,6 +35,16 @@
     {"name":  "lor", "grb_name":  "GxB_LOR"},
     {"name":  "land", "grb_name":  "GxB_LAND"},
     {"name":  "lxor", "grb_name":  "GxB_LXOR"}
+  ],
+  "positional_binary_ops": [
+    {"name":  "firstI", "grb_name":  "GrB_FIRSTI"},
+    {"name":  "firstI1", "grb_name":  "GrB_FIRSTI1"},
+    {"name":  "firstJ", "grb_name":  "GrB_FIRSTJ"},
+    {"name":  "firstJ1", "grb_name":  "GrB_FIRSTJ1"},
+    {"name":  "secondI", "grb_name":  "GrB_SECONDI"},
+    {"name":  "secondI1", "grb_name":  "GrB_SECONDI1"},
+    {"name":  "secondJ", "grb_name":  "GrB_SECONDJ"},
+    {"name":  "secondJ1", "grb_name":  "GrB_SECONDJ1"}
   ],
   "binary_ops_bool": [
     {"name":  "eq", "grb_name":  "GrB_EQ"},
